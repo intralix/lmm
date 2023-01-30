@@ -2,3 +2,8 @@
 	path = intralix/lmmx_odoo_addons
 	url = git@github.com:intralix/lmmx_odoo_addons.git
 	branch = 15.0
+
+[submodule "intralix/lmmx_odoo_addons"]
+	path = intralix/lmmx_odoo_addons
+	url = git@github.com:intralix/lmmx_odoo_addons.git
+	branch = 15.0
