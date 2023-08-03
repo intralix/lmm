@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="cnd_view_account_l10n_mx_cfdi_tax_key_form_view" model="ir.ui.view">
+        <field name="name">cnd.view.account.l10n.mx.cfdi.tax.key.form.view</field>
+        <field name="model">account.tax</field>
+        <field name="inherit_id" ref="account.view_tax_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='analytic']" position="before">
+                <field name="l10n_mx_cfdi_tax_key"/>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="l10n_mx_edi_update_use_server_action" model="ir.actions.server">
+        <field name="name">Update CFDI Use from XML</field>
+        <field name="model_id" ref="account.model_account_move"/>
+        <field name="binding_model_id" ref="account.model_account_move" />
+        <field name="state">code</field>
+        <field name="code">records.l10n_mx_edi_update_use()</field>
+    </record>
+</odoo>

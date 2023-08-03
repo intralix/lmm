@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record model="ir.module.category" id="account_edi_category">
+            <field name="name">Account EDI</field>
+            <field name="description">User access level for this module</field>
+            <field name="sequence">3</field>
+        </record>
+
+        <record id="group_edi_import" model="res.groups">
+            <field name="name">EDI Import Manager</field>
+            <field name="implied_ids" eval="[(4, ref('base.group_user'))]"/>
+            <field name="category_id" ref="cnd_l10n_mx_edi_import_cfdi.account_edi_category"/>
+            <field name="comment">This group can import sale invoices or supplier invoices from XML files.</field>
+            <field name="users" eval="[(4, ref('base.user_root')), (4, ref('base.user_admin'))]"/>
+        </record>
+    </data>
+</odoo>

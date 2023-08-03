@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="l10n_mx_edi_import_cfdi_restrict_config_settings_form" model="ir.ui.view">
+            <field name="name">sale.order.credit.limit.restrict.config.settings.form</field>
+            <field name="model">res.config.settings</field>
+            <field name="inherit_id" ref="account.res_config_settings_view_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//div[@id='invoicing_settings']" position="after">
+                    <h2>CFDI Import</h2>
+                    <div class="row mt16 o_settings_container" name="quotation_order_setting_credit_limit">
+                        <div class="col-12 col-lg-6 o_setting_box" id="sale_config_credit_limit">
+                            <div class="o_setting_left_pane">
+                                <field name="create_products"/>
+                            </div>
+                            <div class="o_setting_right_pane">
+                                <label for="create_products"/>
+                                <span class="fa fa-lg fa-building-o" title="Values set here are company-specific." aria-label="Values set here are company-specific." groups="base.group_multi_company" role="img"/>
+                                <div class="text-muted">
+                                    If marked, product in the xml file are going to be created.
+                                </div>
+                                <div class="row">
+                                    <label for="product_type_default" class="col-lg-3 o_light_label" attrs="{'invisible': [('create_products','=',False)], 'required': [('create_products','=',True)]}"/>
+                                    <field name="product_type_default" attrs="{'invisible': [('create_products','=',False)], 'required': [('create_products','=',True)]}"/>
+                                </div>
+                                <div class="row">
+                                    <label for="product_categ_id_default" class="col-lg-3 o_light_label" attrs="{'invisible': [('create_products','=',False)], 'required': [('create_products','=',True)]}"/>
+                                    <field name="product_categ_id_default" attrs="{'invisible': [('create_products','=',False)], 'required': [('create_products','=',True)]}"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

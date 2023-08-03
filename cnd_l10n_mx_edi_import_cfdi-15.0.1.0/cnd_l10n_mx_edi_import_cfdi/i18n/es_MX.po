@@ -1,0 +1,1193 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* cnd_l10n_mx_edi_import_cfdi
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-24 00:29+0000\n"
+"PO-Revision-Date: 2023-01-24 00:29+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__import_account_invoice__supplier_l10n_mx_type_of_operation__03
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__wizard_account_upload_edi_invoices__supplier_l10n_mx_type_of_operation__03
+msgid " 03 - Provision of Professional Services"
+msgstr " 03 - Prestación de servicios profesionales"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__import_account_invoice__supplier_l10n_mx_type_of_operation__06
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__wizard_account_upload_edi_invoices__supplier_l10n_mx_type_of_operation__06
+msgid " 06 - Renting of buildings"
+msgstr " 06 - Alquiler de edificios"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__import_account_invoice__supplier_l10n_mx_type_of_operation__85
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__wizard_account_upload_edi_invoices__supplier_l10n_mx_type_of_operation__85
+msgid " 85 - Others"
+msgstr " 85 - Otros"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model_terms:ir.ui.view,arch_db:cnd_l10n_mx_edi_import_cfdi.l10n_mx_edi_import_cfdi_restrict_config_settings_form
+msgid ""
+"<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-"
+"specific.\" aria-label=\"Values set here are company-specific.\" "
+"groups=\"base.group_multi_company\" role=\"img\"/>"
+msgstr ""
+"<span class=\"fa fa-lg fa-building-o\" title=\"Los valores establecidos aquí"
+" son específicos de la empresa.\" aria-label=\"Values set here are company-"
+"specific.\" groups=\"base.group_multi_company\" role=\"img\"/>"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,help:cnd_l10n_mx_edi_import_cfdi.field_res_company__product_type_default
+#: model:ir.model.fields,help:cnd_l10n_mx_edi_import_cfdi.field_res_config_settings__product_type_default
+msgid ""
+"A storable product is a product for which you manage stock. The Inventory app has to be installed.\n"
+"A consumable product is a product for which stock is not managed.\n"
+"A service is a non-material product you provide."
+msgstr ""
+"Un producto almacenable es un producto para el que gestiona existencias. La aplicación de Inventario debe estar instalada.\n"
+"Un producto consumible es un producto para el que no se gestionan las existencias.\n"
+"Un servicio es un producto no material."
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.module.category,name:cnd_l10n_mx_edi_import_cfdi.account_edi_category
+msgid "Account EDI"
+msgstr "Cuenta EDI"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__import_account_invoice__l10n_mx_edi_usage__g01
+msgid "Acquisition of merchandise"
+msgstr "Adquisición de mercancías"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__import_account_invoice__l10n_mx_edi_fiscal_regime__622
+msgid "Actividades Agrícolas, Ganaderas, Silvícolas y Pesqueras"
+msgstr ""
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice__analytic_account_id
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_wizard_account_upload_edi_invoices__analytic_account_id
+msgid "Analytic Account"
+msgstr "Cuenta Analítica"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice__analytic_tag_ids
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_wizard_account_upload_edi_invoices__analytic_tag_ids
+msgid "Analytic Tags"
+msgstr "Etiquetas analíticas"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__import_account_invoice__l10n_mx_edi_fiscal_regime__606
+msgid "Arrendamiento"
+msgstr ""
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model_terms:ir.ui.view,arch_db:cnd_l10n_mx_edi_import_cfdi.l10n_mx_edi_import_cfdi_restrict_config_settings_form
+msgid "CFDI Import"
+msgstr "Importación de CFDI"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model_terms:ir.ui.view,arch_db:cnd_l10n_mx_edi_import_cfdi.upload_correct_invoices_form_view
+#: model_terms:ir.ui.view,arch_db:cnd_l10n_mx_edi_import_cfdi.wizard_account_upload_edi_invoices_form_view
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice_line__claveprodserv
+msgid "ClaveProdServ"
+msgstr ""
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model,name:cnd_l10n_mx_edi_import_cfdi.model_res_company
+msgid "Companies"
+msgstr "Empresas"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice__company_id
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_wizard_account_upload_edi_invoices__company_id
+msgid "Company"
+msgstr "Empresa"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,help:cnd_l10n_mx_edi_import_cfdi.field_wizard_account_upload_edi_invoices__zip_file
+msgid ""
+"Compressed Zip file that contains the xml and pdf files of the edi invoices."
+msgstr ""
+"Archivo Zip comprimido que contiene los archivos xml y pdf de las facturas edi."
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__import_account_invoice__l10n_mx_edi_usage__i04
+msgid "Computer equipment and accessories"
+msgstr "Equipo de cómputo y accesorios"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model,name:cnd_l10n_mx_edi_import_cfdi.model_res_config_settings
+msgid "Config Settings"
+msgstr "Ajustes de configuración"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__import_account_invoice__l10n_mx_edi_fiscal_regime__609
+msgid "Consolidación"
+msgstr ""
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__import_account_invoice__l10n_mx_edi_usage__i01
+msgid "Constructions"
+msgstr "Construcciones"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__res_company__product_type_default__consu
+msgid "Consumable"
+msgstr "Consumible"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model,name:cnd_l10n_mx_edi_import_cfdi.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__import_account_invoice__l10n_mx_edi_fiscal_regime__624
+msgid "Coordinados"
+msgstr ""
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_wizard_account_upload_edi_invoices__create_partners_not_found
+msgid "Create Partners not Found"
+msgstr "Crear contactos no encontrados"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_res_company__create_products
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_res_config_settings__create_products
+msgid "Create Products"
+msgstr "Crear Productos"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice__create_uid
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice_line__create_uid
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_upload_correct_invoices__create_uid
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_wizard_account_upload_edi_invoices__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice__create_date
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice_line__create_date
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_upload_correct_invoices__create_date
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_wizard_account_upload_edi_invoices__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: code:addons/cnd_l10n_mx_edi_import_cfdi/wizard/upload_edi_invoices.py:0
+#, python-format
+msgid "Creating Partner with values: %s"
+msgstr "Creando Contacto con los valores: %s"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_res_partner__import_invoice_line_account_id
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_res_users__import_invoice_line_account_id
+msgid "Cuenta de importación de xml"
+msgstr ""
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice__currency_id
+msgid "Currency"
+msgstr "Divisa"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__import_account_invoice__invoice_type__out_refund
+msgid "Customer Credit Note"
+msgstr "Nota de crédito del cliente"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__import_account_invoice__invoice_type__out_invoice
+msgid "Customer Invoice"
+msgstr "Factura del cliente"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__wizard_account_upload_edi_invoices__internal_type__receivable
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__wizard_account_upload_edi_invoices__journal_type__sale
+msgid "Customer Invoices"
+msgstr "Facturas de clientes"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice__partner_property_payment_term_id
+msgid "Customer Payment Terms"
+msgstr "Condiciones de pago del cliente"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__import_account_invoice__l10n_mx_edi_fiscal_regime__629
+msgid ""
+"De los Regímenes Fiscales Preferentes y de las Empresas Multinacionales"
+msgstr ""
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__import_account_invoice__l10n_mx_edi_fiscal_regime__608
+msgid "Demás ingresos"
+msgstr ""
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__import_account_invoice__l10n_mx_edi_usage__d09
+msgid "Deposits in savings accounts, premiums based on pension plans."
+msgstr ""
+"Depósitos en cuentas para el ahorro, primas que tengan como base planes de "
+"pensiones."
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__import_account_invoice__l10n_mx_edi_usage__i05
+msgid "Dices, dies, molds, matrices and tooling"
+msgstr "Dados, troqueles, moldes, matrices y herramental"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice_line__discount
+msgid "Discount (%)"
+msgstr "Descuento (%)"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice__display_name
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice_line__display_name
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_upload_correct_invoices__display_name
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_wizard_account_upload_edi_invoices__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__import_account_invoice__l10n_mx_edi_usage__d04
+msgid "Donations"
+msgstr "Donativos"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:res.groups,name:cnd_l10n_mx_edi_import_cfdi.group_edi_import
+msgid "EDI Import Manager"
+msgstr "Administrador de importación EDI"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model,name:cnd_l10n_mx_edi_import_cfdi.model_account_edi_format
+msgid "EDI format"
+msgstr "Formato EDI"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__import_account_invoice__l10n_mx_edi_fiscal_regime__630
+msgid "Enajenación de acciones en bolsa de valores"
+msgstr ""
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice__xml_error
+msgid "Error"
+msgstr ""
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: code:addons/cnd_l10n_mx_edi_import_cfdi/wizard/upload_edi_invoices.py:0
+#, python-format
+msgid "Error processing %s file, bad file."
+msgstr "Error al procesar el archivo %s, archivo defectuoso."
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: code:addons/cnd_l10n_mx_edi_import_cfdi/wizard/upload_edi_invoices.py:0
+#, python-format
+msgid "Error unzipping '%s' file: %s"
+msgstr "¡Error al descomprimir el archivo '%s'!"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,help:cnd_l10n_mx_edi_import_cfdi.field_account_bank_statement_line__l10n_mx_edi_external_reference
+#: model:ir.model.fields,help:cnd_l10n_mx_edi_import_cfdi.field_account_move__l10n_mx_edi_external_reference
+#: model:ir.model.fields,help:cnd_l10n_mx_edi_import_cfdi.field_account_payment__l10n_mx_edi_external_reference
+msgid ""
+"External Invoice Reference comes normally in the PDF, it was generated by "
+"the External Partner who signed the invoice."
+msgstr ""
+"La referencia de factura externa viene normalmente en el PDF, fue generada "
+"por el contacto externo que firmó la factura."
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_account_bank_statement_line__l10n_mx_edi_external_reference
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_account_move__l10n_mx_edi_external_reference
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_account_payment__l10n_mx_edi_external_reference
+msgid "External Reference"
+msgstr "Referencia externa"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: code:addons/cnd_l10n_mx_edi_import_cfdi/wizard/upload_edi_invoices.py:0
+#, python-format
+msgid "File '%s' exceed maximum allowed file size!"
+msgstr "¡El archivo '%s' excede el tamaño de archivo máximo permitido!"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_wizard_account_upload_edi_invoices__file_type
+msgid "File Type"
+msgstr "Tipo de archivo"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: code:addons/cnd_l10n_mx_edi_import_cfdi/wizard/upload_edi_invoices.py:0
+#, python-format
+msgid "File does not contains xml files compressed!"
+msgstr "¡El archivo no contiene archivos xml comprimidos!"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice__l10n_mx_edi_fiscal_regime
+msgid "Fiscal Regime"
+msgstr "Régimen Fiscal"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,help:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice__l10n_mx_edi_fiscal_regime
+msgid "Fiscal Regime is required for all partners (used in CFDI)"
+msgstr "Se requiere Régimen Fiscal para todos los contactos (usado en CFDI)"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice__xml_folio
+msgid "Folio"
+msgstr ""
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__import_account_invoice__l10n_mx_edi_usage__d03
+msgid "Funeral expenses"
+msgstr "Gastos funerales"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__import_account_invoice__l10n_mx_edi_fiscal_regime__601
+msgid "General de Ley Personas Morales"
+msgstr ""
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__import_account_invoice__l10n_mx_edi_usage__g03
+msgid "General expenses"
+msgstr "Gastos en general"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__import_account_invoice__l10n_mx_edi_fiscal_regime__628
+msgid "Hidrocarburos"
+msgstr ""
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice__id
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice_line__id
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_upload_correct_invoices__id
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_wizard_account_upload_edi_invoices__id
+msgid "ID"
+msgstr "Identificación"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,help:cnd_l10n_mx_edi_import_cfdi.field_res_company__create_products
+#: model:ir.model.fields,help:cnd_l10n_mx_edi_import_cfdi.field_res_config_settings__create_products
+#: model_terms:ir.ui.view,arch_db:cnd_l10n_mx_edi_import_cfdi.l10n_mx_edi_import_cfdi_restrict_config_settings_form
+msgid "If marked, product in the xml file are going to be created."
+msgstr ""
+"Si está marcado, se crearán el productos contenidos en los archivos xml "
+"importados, si es que no existen en el catálogo de productos."
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,help:cnd_l10n_mx_edi_import_cfdi.field_account_bank_statement_line__l10n_mx_edi_imported_from_xml
+#: model:ir.model.fields,help:cnd_l10n_mx_edi_import_cfdi.field_account_move__l10n_mx_edi_imported_from_xml
+#: model:ir.model.fields,help:cnd_l10n_mx_edi_import_cfdi.field_account_payment__l10n_mx_edi_imported_from_xml
+msgid "If this field is active, the CFDI was imported from its XML file."
+msgstr ""
+"Si este campo está activo, el CFDI fue importado desde su archivo XML."
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,help:cnd_l10n_mx_edi_import_cfdi.field_account_bank_statement_line__l10n_mx_edi_sign_required
+#: model:ir.model.fields,help:cnd_l10n_mx_edi_import_cfdi.field_account_move__l10n_mx_edi_sign_required
+#: model:ir.model.fields,help:cnd_l10n_mx_edi_import_cfdi.field_account_payment__l10n_mx_edi_sign_required
+msgid "If this field is active, the CFDI will be generated for this invoice."
+msgstr "Si este campo está activo, se generará el CFDI para esta factura."
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,help:cnd_l10n_mx_edi_import_cfdi.field_res_partner__l10n_mx_edi_sign_required
+#: model:ir.model.fields,help:cnd_l10n_mx_edi_import_cfdi.field_res_users__l10n_mx_edi_sign_required
+msgid ""
+"If this field is active, the invoices for this customer by default will be "
+"signed."
+msgstr ""
+"Si este campo está activo, se firmarán las facturas para este cliente de "
+"forma predeterminada."
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model_terms:ir.ui.view,arch_db:cnd_l10n_mx_edi_import_cfdi.wizard_account_upload_edi_invoices_form_view
+msgid "Import"
+msgstr "Importar"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model,name:cnd_l10n_mx_edi_import_cfdi.model_import_account_invoice
+msgid "Import Account Invoice"
+msgstr "Cuenta Factura de importación"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model,name:cnd_l10n_mx_edi_import_cfdi.model_import_account_invoice_line
+msgid "Import Account Invoice Line"
+msgstr "Línea de factura de cuenta de importación"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model,name:cnd_l10n_mx_edi_import_cfdi.model_upload_correct_invoices
+msgid "Import Correct Invoices"
+msgstr "Importar facturas correctas"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.ui.menu,name:cnd_l10n_mx_edi_import_cfdi.menu_account_upload_edi_invoices
+msgid "Import Customer EDI Invoices (MX)"
+msgstr "Importar facturas EDI de clientes/proveedores (MX)"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.actions.act_window,name:cnd_l10n_mx_edi_import_cfdi.act_window_account_upload_edi_invoices
+msgid "Import EDI Invoices from XML file (CFDI MX)"
+msgstr "Importar facturas EDI de clientes/proveedores (MX)"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice__importation_type
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_wizard_account_upload_edi_invoices__importation_type
+msgid "Importation Type"
+msgstr "Tipo de importación"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: code:addons/cnd_l10n_mx_edi_import_cfdi/wizard/upload_edi_invoices.py:0
+#, python-format
+msgid "Imported Invoices"
+msgstr "Facturas importadas"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_account_bank_statement_line__l10n_mx_edi_imported_from_xml
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_account_move__l10n_mx_edi_imported_from_xml
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_account_payment__l10n_mx_edi_imported_from_xml
+msgid "Imported from XML"
+msgstr "Importado desde un XML"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__import_account_invoice__l10n_mx_edi_fiscal_regime__621
+msgid "Incorporación Fiscal"
+msgstr ""
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,help:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice__supplier_l10n_mx_type_of_operation
+#: model:ir.model.fields,help:cnd_l10n_mx_edi_import_cfdi.field_wizard_account_upload_edi_invoices__supplier_l10n_mx_type_of_operation
+msgid ""
+"Indicate the operations type that makes this supplier. Is the second column "
+"in DIOT report"
+msgstr ""
+"Indique el tipo de operaciones que realiza este proveedor. Es la segunda "
+"columna del informe DIOT"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__import_account_invoice__l10n_mx_edi_fiscal_regime__611
+msgid "Ingresos por Dividendos (socios y accionistas)"
+msgstr ""
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__import_account_invoice__l10n_mx_edi_fiscal_regime__614
+msgid "Ingresos por intereses"
+msgstr ""
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_wizard_account_upload_edi_invoices__internal_type
+msgid "Internal Type"
+msgstr "Tipo interno"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice_line__invoice_id
+msgid "Invoice"
+msgstr "Factura"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice__invoice_account_id
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_wizard_account_upload_edi_invoices__invoice_account_id
+msgid "Invoice Account"
+msgstr "Cuenta de factura"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_upload_correct_invoices__invoice_upload_count
+msgid "Invoice count"
+msgstr "Contador de facturas"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice__invoice_line_ids
+msgid "Invoice lines"
+msgstr "Líneas de factura"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice__invoice_date
+msgid "Invoice/Bill Date"
+msgstr "Fecha de factura"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: code:addons/cnd_l10n_mx_edi_import_cfdi/wizard/upload_edi_invoices.py:0
+#, python-format
+msgid "Invoices List"
+msgstr "Lista de facturas"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_upload_correct_invoices__invoice_upload_ids
+msgid "Invoices Uploaded"
+msgstr "Facturas importadas"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice__journal_id
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_wizard_account_upload_edi_invoices__journal_id
+msgid "Journal"
+msgstr "Diario"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model,name:cnd_l10n_mx_edi_import_cfdi.model_account_move
+msgid "Journal Entry"
+msgstr "Asiento de diario"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model,name:cnd_l10n_mx_edi_import_cfdi.model_account_move_line
+msgid "Journal Item"
+msgstr "Apunte de diario"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice_line__name
+msgid "Label"
+msgstr ""
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice____last_update
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice_line____last_update
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_upload_correct_invoices____last_update
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_wizard_account_upload_edi_invoices____last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice__write_uid
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice_line__write_uid
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_upload_correct_invoices__write_uid
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_wizard_account_upload_edi_invoices__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice__write_date
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice_line__write_date
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_upload_correct_invoices__write_date
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_wizard_account_upload_edi_invoices__write_date
+msgid "Last Updated on"
+msgstr "Ultima actualización el"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice__lines_account_id
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_wizard_account_upload_edi_invoices__lines_account_id
+msgid "Lines Account"
+msgstr "Cuenta de Líneas"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model_terms:ir.ui.view,arch_db:cnd_l10n_mx_edi_import_cfdi.upload_correct_invoices_form_view
+msgid "List of invoices to import, please, check the status column."
+msgstr ""
+"Lista de facturas a importar, por favor, consulte la columna de estado."
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__import_account_invoice__l10n_mx_edi_usage__d08
+msgid "Mandatory School Transportation Expenses"
+msgstr "Gastos de transportación escolar obligatoria"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__import_account_invoice__l10n_mx_edi_usage__d02
+msgid "Medical expenses for disability"
+msgstr "Gastos médicos por incapacidad o discapacidad"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__import_account_invoice__l10n_mx_edi_usage__d07
+msgid "Medical insurance premiums"
+msgstr "Primas por seguros de gastos médicos"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__import_account_invoice__l10n_mx_edi_usage__d01
+msgid "Medical, dental and hospital expenses."
+msgstr "Honorarios médicos, dentales y gastos hospitalarios."
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_wizard_account_upload_edi_invoices__new_partner_payment_term_id
+msgid "New Partners Payment Terms"
+msgstr "Condiciones de pago de nuevos contactos"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: code:addons/cnd_l10n_mx_edi_import_cfdi/wizard/upload_edi_invoices.py:0
+#, python-format
+msgid "No file sent."
+msgstr "Ningún archivo enviado."
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__account_move__l10n_mx_edi_usage__s01
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__import_account_invoice__l10n_mx_edi_usage__s01
+msgid "No tax effects"
+msgstr "Sin efectos fiscales"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice_line__noidentificacion
+msgid "No. Identificacion"
+msgstr ""
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__import_account_invoice__l10n_mx_edi_usage__i02
+msgid "Office furniture and equipment investment"
+msgstr "Mobilario y equipo de oficina por inversiones"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__import_account_invoice__l10n_mx_edi_fiscal_regime__623
+msgid "Opcional para Grupos de Sociedades"
+msgstr ""
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__import_account_invoice__importation_type__opening_balances
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__wizard_account_upload_edi_invoices__importation_type__opening_balances
+msgid "Opening Balances"
+msgstr "Saldos iniciales"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice__origin
+msgid "Origin"
+msgstr "Origen"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__import_account_invoice__l10n_mx_edi_usage__i08
+msgid "Other machinery and equipment"
+msgstr "Otra maquinaria y equipo"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice__pdf_binary_content
+msgid "PDF Binary"
+msgstr "Pdf binario"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,help:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice__pdf_binary_content
+msgid "PDF Binary Content"
+msgstr "Contenido binario del Pdf"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice__pdf_file_name
+#: model:ir.model.fields,help:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice__pdf_file_name
+msgid "PDF File Name"
+msgstr "Nombre del archivo Pdf"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice__partner_id
+msgid "Partner"
+msgstr "Contacto"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice__partner_name
+msgid "Partner Name"
+msgstr "Nombre del contacto"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice__payment_reference
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_wizard_account_upload_edi_invoices__payment_reference
+msgid "Payment Reference"
+msgstr "Refefrencia de Pago"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__import_account_invoice__l10n_mx_edi_usage__d10
+msgid "Payments for educational services (Colegiatura)"
+msgstr "Pagos por servicios educativos (colegiaturas)"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_wizard_account_upload_edi_invoices__pdf_file
+msgid "Pdf File (optional)"
+msgstr "Archivo Pdf (opcional)"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_wizard_account_upload_edi_invoices__pdf_filename
+msgid "Pdf File Name"
+msgstr "Nombre de archivo PDF"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,help:cnd_l10n_mx_edi_import_cfdi.field_wizard_account_upload_edi_invoices__pdf_file
+msgid "Pdf representing the invoice of the xml file data (optional)."
+msgstr ""
+"Pdf que representa la factura de los datos del archivo xml (opcional)."
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__import_account_invoice__l10n_mx_edi_fiscal_regime__612
+msgid "Personas Físicas con Actividades Empresariales y Profesionales"
+msgstr ""
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__import_account_invoice__l10n_mx_edi_fiscal_regime__603
+msgid "Personas Morales con Fines no Lucrativos"
+msgstr ""
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: code:addons/cnd_l10n_mx_edi_import_cfdi/wizard/upload_edi_invoices.py:0
+#, python-format
+msgid "Processing the xml file: %s"
+msgstr "Procesando el archivo xml: %s"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_res_company__product_categ_id_default
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_res_config_settings__product_categ_id_default
+msgid "Product Category"
+msgstr "Categoria de Producto"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_res_company__product_type_default
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_res_config_settings__product_type_default
+msgid "Product Type"
+msgstr "Tipo de Producto"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice_line__quantity
+msgid "Quantity"
+msgstr "Cantidad"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice__rfc_supplier
+msgid "RFC Emisor"
+msgstr ""
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice__rfc_customer
+msgid "RFC Receptor"
+msgstr ""
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__import_account_invoice__l10n_mx_edi_usage__d05
+msgid "Real interest effectively paid for mortgage loans (room house)"
+msgstr ""
+"Intereses reales efectivamente pagados por créditos hipotecarios (casa "
+"habitación)"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__import_account_invoice__importation_type__regular_invoices
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__wizard_account_upload_edi_invoices__importation_type__regular_invoices
+msgid "Regular Invoices"
+msgstr "Facturas Regulares"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,help:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice__importation_type
+#: model:ir.model.fields,help:cnd_l10n_mx_edi_import_cfdi.field_wizard_account_upload_edi_invoices__importation_type
+msgid ""
+"Regular Invoices - Import includes every line of the invoices.\n"
+"Opening Balances - Import only includes one summary invoice line."
+msgstr ""
+"Facturas Regulares: La importación incluye todas las líneas de las facturas.\n"
+"Saldos Iniciales: La importación solo incluye una línea de factura de resumen."
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__import_account_invoice__l10n_mx_edi_fiscal_regime__610
+msgid "Residentes en el Extranjero sin Establecimiento Permanente en México"
+msgstr ""
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__import_account_invoice__l10n_mx_edi_usage__g02
+msgid "Returns, discounts or bonuses"
+msgstr "Devoluciones, descuentos o bonificaciones"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__import_account_invoice__l10n_mx_edi_fiscal_regime__626
+msgid "Régimen Simplificado de Confianza - RESICO"
+msgstr ""
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__import_account_invoice__l10n_mx_edi_fiscal_regime__607
+msgid "Régimen de Enajenación o Adquisición de Bienes"
+msgstr ""
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__import_account_invoice__l10n_mx_edi_fiscal_regime__625
+msgid ""
+"Régimen de las Actividades Empresariales con ingresos a través de "
+"Plataformas Tecnológicas"
+msgstr ""
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__import_account_invoice__l10n_mx_edi_fiscal_regime__615
+msgid "Régimen de los ingresos por obtención de premios"
+msgstr ""
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice__invoice_team_id
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_wizard_account_upload_edi_invoices__invoice_team_id
+msgid "Sales Team"
+msgstr "Equipo de ventas"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice__invoice_user_id
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_wizard_account_upload_edi_invoices__invoice_user_id
+msgid "Salesperson"
+msgstr "Comercial"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__import_account_invoice__l10n_mx_edi_usage__i07
+msgid "Satellite communications"
+msgstr "Comunicaciones satelitales"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,help:cnd_l10n_mx_edi_import_cfdi.field_res_company__product_categ_id_default
+#: model:ir.model.fields,help:cnd_l10n_mx_edi_import_cfdi.field_res_config_settings__product_categ_id_default
+msgid "Select category for the current product"
+msgstr "Seleccionar categoría para el producto actual"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,help:cnd_l10n_mx_edi_import_cfdi.field_wizard_account_upload_edi_invoices__internal_type
+#: model:ir.model.fields,help:cnd_l10n_mx_edi_import_cfdi.field_wizard_account_upload_edi_invoices__journal_type
+msgid ""
+"Select if you are going to upload Customer Invoices or Supplier Invoices"
+msgstr "Selecciona si vas a subir Facturas de Cliente o Facturas de Proveedor"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice__xml_serie
+msgid "Serie"
+msgstr ""
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__res_company__product_type_default__service
+msgid "Service"
+msgstr "Servicio"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_res_partner__l10n_mx_edi_sign_required
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_res_users__l10n_mx_edi_sign_required
+msgid "Sign CFDI?"
+msgstr "¿Timbrar Factura?"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_account_bank_statement_line__l10n_mx_edi_sign_required
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_account_move__l10n_mx_edi_sign_required
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_account_payment__l10n_mx_edi_sign_required
+msgid "Sign Invoice?"
+msgstr "¿Firmar factura?"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__import_account_invoice__l10n_mx_edi_fiscal_regime__616
+msgid "Sin obligaciones fiscales"
+msgstr ""
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__import_account_invoice__l10n_mx_edi_fiscal_regime__620
+msgid ""
+"Sociedades Cooperativas de Producción que optan por diferir sus ingresos"
+msgstr ""
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice__xml_state
+msgid "Status"
+msgstr "Estado"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__res_company__product_type_default__product
+msgid "Storable Product"
+msgstr "Producto Almacenable"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__import_account_invoice__l10n_mx_edi_fiscal_regime__605
+msgid "Sueldos y Salarios e Ingresos Asimilados a Salarios"
+msgstr ""
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__wizard_account_upload_edi_invoices__internal_type__payable
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__wizard_account_upload_edi_invoices__journal_type__purchase
+msgid "Supplier Invoices"
+msgstr "Facturas de proveedores"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice__supplier_l10n_mx_type_of_operation
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_wizard_account_upload_edi_invoices__supplier_l10n_mx_type_of_operation
+msgid "Supplier L10N Mx Type Of Operation"
+msgstr "Tipo de Operación de Proveedor"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model,name:cnd_l10n_mx_edi_import_cfdi.model_account_tax
+msgid "Tax"
+msgstr "Impuesto"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice__partner_vat
+msgid "Tax ID"
+msgstr "Impuesto ID"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_account_tax__l10n_mx_cfdi_tax_key
+msgid "Tax Key"
+msgstr "Clave de impuesto"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice_line__tax_ids
+msgid "Taxes"
+msgstr "Impuestos"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,help:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice_line__tax_ids
+msgid "Taxes that apply on the base amount"
+msgstr "Impuestos que aplican sobre el monto base"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__import_account_invoice__l10n_mx_edi_usage__i06
+msgid "Telephone communications"
+msgstr "Comunicaciones telefónicas"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,help:cnd_l10n_mx_edi_import_cfdi.field_account_tax__l10n_mx_cfdi_tax_key
+msgid ""
+"The CFDI version 4.0 have the attribute \"Impuesto\" in the tax lines. The "
+"Tax Catalog specifies which are the Tax Keys transferred and taxes withheld,"
+" linked to the concepts of Digital Tax Receipts on the Internet."
+msgstr ""
+"Los CFDI versión 4.0 tiene el atributo \"Impuesto\" en las líneas de impuestos. "
+"El Catálogo de impuestos especifica cuáles son las Claves Fiscales transferidas y "
+"los impuestos retenidos, vinculados a los conceptos de Comprobantes Fiscales Digitales en Internet."
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,help:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice__partner_vat
+msgid ""
+"The Tax Identification Number. Complete it if the contact is subjected to "
+"government taxes. Used in some legal statements."
+msgstr ""
+"El Número de Identificación Fiscal. Complételo si el contacto está sujeto a "
+"impuestos gubernamentales. Se utiliza en algunas declaraciones legales."
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,help:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice__origin
+msgid "The document(s) that generated the invoice."
+msgstr "El o los documentos que generaron la factura."
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: code:addons/cnd_l10n_mx_edi_import_cfdi/wizard/upload_edi_invoices.py:0
+#, python-format
+msgid "The file selected (%s) is no a pdf file, please, select a pdf file."
+msgstr ""
+"El archivo seleccionado (%s) no es un archivo pdf, por favor seleccione un "
+"archivo pdf."
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: code:addons/cnd_l10n_mx_edi_import_cfdi/wizard/upload_edi_invoices.py:0
+#, python-format
+msgid ""
+"The file selected (%s) is no a zip nither xml file, please, select a zip or "
+"xml file."
+msgstr ""
+"El archivo seleccionado (%s) no es un archivo zip ni xml, por favor, "
+"seleccione un archivo zip o xml."
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,help:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice_line__invoice_id
+msgid "The invoice of this entry line."
+msgstr "La factura de esta línea de entrada."
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,help:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice_line__quantity
+msgid ""
+"The optional quantity expressed by this line, eg: number of product sold. "
+"The quantity is not a legal requirement but is very useful for some reports."
+msgstr ""
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,help:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice__payment_reference
+#: model:ir.model.fields,help:cnd_l10n_mx_edi_import_cfdi.field_wizard_account_upload_edi_invoices__payment_reference
+msgid "The payment reference to set on journal items."
+msgstr "La referencia de pago para establecer en apuntes de diario."
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:res.groups,comment:cnd_l10n_mx_edi_import_cfdi.group_edi_import
+msgid ""
+"This group can import sale invoices or supplier invoices from XML files."
+msgstr ""
+"Este grupo puede importar facturas de venta o facturas de proveedores desde "
+"archivos XML."
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: code:addons/cnd_l10n_mx_edi_import_cfdi/wizard/upload_edi_invoices.py:0
+#, python-format
+msgid "This invoice is opening balance invoice"
+msgstr "Esta factura es factura de saldo inicial"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: code:addons/cnd_l10n_mx_edi_import_cfdi/wizard/upload_edi_invoices.py:0
+#, python-format
+msgid "This invoice was imported from his XML file"
+msgstr "Esta factura fue importada de su archivo XML"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: code:addons/cnd_l10n_mx_edi_import_cfdi/__init__.py:0
+#, python-format
+msgid "This module support Odoo series 15.0, found %s."
+msgstr ""
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,help:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice__partner_property_supplier_payment_term_id
+msgid ""
+"This payment term will be used instead of the default one for purchase "
+"orders and vendor bills"
+msgstr ""
+"Este término de pago se utilizará en lugar del predeterminado para órdenes "
+"de compra y facturas de proveedores."
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,help:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice__partner_property_payment_term_id
+msgid ""
+"This payment term will be used instead of the default one for sales orders "
+"and customer invoices"
+msgstr ""
+"Este término de pago se utilizará en lugar del predeterminado para órdenes "
+"de venta y facturas de clientes."
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__import_account_invoice__l10n_mx_edi_usage__p01
+msgid "To define"
+msgstr "Por definir"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice__total_amount
+msgid "Total amount"
+msgstr "Importe total"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__import_account_invoice__l10n_mx_edi_usage__i03
+msgid "Transportation equipment"
+msgstr "Equipo de transporte"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice__invoice_type
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_wizard_account_upload_edi_invoices__journal_type
+msgid "Type"
+msgstr "Tipo"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice__uuid
+msgid "UUID"
+msgstr ""
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice_line__price_unit
+msgid "Unit Price"
+msgstr "Precio unitario"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice_line__product_uom_id
+msgid "Unit of Measure"
+msgstr "Unidad de medida"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.actions.server,name:cnd_l10n_mx_edi_import_cfdi.l10n_mx_edi_update_use_server_action
+msgid "Update CFDI Use from XML"
+msgstr "Actualizar uso de CFDI desde XML"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model_terms:ir.ui.view,arch_db:cnd_l10n_mx_edi_import_cfdi.upload_correct_invoices_form_view
+msgid "Upload the correct Invoices"
+msgstr "Importar las facturas correctas"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_account_bank_statement_line__l10n_mx_edi_usage
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_account_move__l10n_mx_edi_usage
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_account_payment__l10n_mx_edi_usage
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice__l10n_mx_edi_usage
+msgid "Usage"
+msgstr "Uso"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,help:cnd_l10n_mx_edi_import_cfdi.field_account_bank_statement_line__l10n_mx_edi_usage
+#: model:ir.model.fields,help:cnd_l10n_mx_edi_import_cfdi.field_account_move__l10n_mx_edi_usage
+#: model:ir.model.fields,help:cnd_l10n_mx_edi_import_cfdi.field_account_payment__l10n_mx_edi_usage
+msgid ""
+"Used in CFDI 3.3 to express the key to the usage that will gives the receiver to this invoice. This value is defined by the customer.\n"
+"Note: It is not cause for cancellation if the key set is not the usage that will give the receiver of the document."
+msgstr ""
+"Usado en CFDI 3.3 para expresar la clave del uso que le dará el receptor a esta factura. Este valor lo define el cliente.\n"
+"Nota: No es motivo de cancelación si la clave no es el uso que le dará al destinatario del documento."
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,help:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice__l10n_mx_edi_usage
+msgid ""
+"Used in CFDI 3.3 to express the key to the usage that will gives the receiver to this invoice. This value is defined by the customer. \n"
+"Note: It is not cause for cancellation if the key set is not the usage that will give the receiver of the document."
+msgstr ""
+"Usado en CFDI 3.3 para expresar la clave del uso que le dará el receptor a esta factura. Este valor lo define el cliente.\n"
+"Nota: No es motivo de cancelación si la clave no es el uso que le dará al destinatario del documento."
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.module.category,description:cnd_l10n_mx_edi_import_cfdi.account_edi_category
+msgid "User access level for this module"
+msgstr "Nivel de acceso de usuario para este módulo"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__import_account_invoice__invoice_type__in_invoice
+msgid "Vendor Bill"
+msgstr "Factura de proveedor"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__import_account_invoice__invoice_type__in_refund
+msgid "Vendor Credit Note"
+msgstr "Nota de crédito del proveedor"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice__partner_property_supplier_payment_term_id
+msgid "Vendor Payment Terms"
+msgstr "Términos de pago del proveedor"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__import_account_invoice__l10n_mx_edi_usage__d06
+msgid "Voluntary contributions to SAR"
+msgstr "Aportaciones voluntarias al SAR"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice__upload_correct_invoices_id
+msgid "Wizard Message"
+msgstr "Mensaje del Asistente"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model,name:cnd_l10n_mx_edi_import_cfdi.model_wizard_account_upload_edi_invoices
+msgid ""
+"Wizard to import EDI invoices compressed in a zip file as opening balances"
+msgstr ""
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice__xml_binary_content
+msgid "XML Binary"
+msgstr "Xml Binario"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,help:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice__xml_binary_content
+msgid "XML Binary Content"
+msgstr "Contenido binario del xml"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice__xml_file_name
+#: model:ir.model.fields,help:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice__xml_file_name
+msgid "XML File Name"
+msgstr "Nombre del Archivo Xml"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__wizard_account_upload_edi_invoices__file_type__xml
+msgid "Xml"
+msgstr ""
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_import_account_invoice__zip
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__wizard_account_upload_edi_invoices__file_type__zip
+msgid "Zip"
+msgstr ""
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_wizard_account_upload_edi_invoices__zip_file
+msgid "Zip or Xml File"
+msgstr "Archivo Zip o Xml"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields,field_description:cnd_l10n_mx_edi_import_cfdi.field_wizard_account_upload_edi_invoices__zip_filename
+msgid "Zip or Xml File Name"
+msgstr "Nombre del Archivo Zip o Xml"
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__account_tax__l10n_mx_cfdi_tax_key__001
+msgid "[001] Retención ISR"
+msgstr ""
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__account_tax__l10n_mx_cfdi_tax_key__002
+msgid "[002] Retención IVA"
+msgstr ""
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__account_tax__l10n_mx_cfdi_tax_key__003
+msgid "[003] Retención IEPS"
+msgstr ""
+
+#. module: cnd_l10n_mx_edi_import_cfdi
+#: model:ir.model.fields.selection,name:cnd_l10n_mx_edi_import_cfdi.selection__account_tax__l10n_mx_cfdi_tax_key__004
+msgid "[004] Impuesto Local"
+msgstr ""

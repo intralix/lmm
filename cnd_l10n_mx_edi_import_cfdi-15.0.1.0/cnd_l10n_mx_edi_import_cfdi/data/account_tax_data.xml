@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <data>
+    <record id="l10n_mx.1_tax9" model="account.tax">
+        <!--<field name="name">IVA(0%) VENTAS</field>-->
+        <field name="l10n_mx_cfdi_tax_key">002</field>
+    </record>
+
+    <record id="l10n_mx.1_tax12" model="account.tax">
+        <!--<field name="name">IVA(16%) VENTAS</field>-->
+        <field name="l10n_mx_cfdi_tax_key">002</field>
+    </record>
+
+    <record id="l10n_mx.1_tax1" model="account.tax">
+        <!--<field name="name">RET IVA FLETES 4%</field>-->
+        <field name="l10n_mx_cfdi_tax_key">002</field>
+    </record>
+
+    <record id="l10n_mx.1_tax2" model="account.tax">
+        <!--<field name="name">RET IVA ARRENDAMIENTO 10%</field>-->
+        <field name="l10n_mx_cfdi_tax_key">002</field>
+    </record>
+
+    <record id="l10n_mx.1_tax3" model="account.tax">
+        <!--<field name="name">RET ISR ARRENDAMIENTO 10%</field>-->
+        <field name="l10n_mx_cfdi_tax_key">001</field>
+    </record>
+
+    <record id="l10n_mx.1_tax5" model="account.tax">
+        <!--<field name="name">RET ISR HONORARIOS 10%</field>-->
+        <field name="l10n_mx_cfdi_tax_key">001</field>
+    </record>
+
+    <record id="l10n_mx.1_tax7" model="account.tax">
+        <!--<field name="name">RETENCION IVA ARRENDAMIENTO 10.67%</field>-->
+        <field name="l10n_mx_cfdi_tax_key">002</field>
+    </record>
+
+    <record id="l10n_mx.1_tax8" model="account.tax">
+        <!--<field name="name">RETENCION IVA HONORARIOS 10.67%</field>-->
+        <field name="l10n_mx_cfdi_tax_key">002</field>
+    </record>
+
+    <record id="l10n_mx.1_tax13" model="account.tax">
+        <!--<field name="name">IVA(0%) COMPRAS</field>-->
+        <field name="l10n_mx_cfdi_tax_key">002</field>
+    </record>
+
+    <record id="l10n_mx.1_tax14" model="account.tax">
+        <!--<field name="name">IVA(16%) COMPRAS</field>-->
+        <field name="l10n_mx_cfdi_tax_key">002</field>
+    </record>
+
+    <record id="l10n_mx.1_tax16" model="account.tax">
+        <!--<field name="name">IVA(8%) COMPRAS</field>-->
+        <field name="l10n_mx_cfdi_tax_key">002</field>
+    </record>
+
+    <record id="l10n_mx.1_tax17" model="account.tax">
+        <!--<field name="name">IVA(8%) VENTAS</field>-->
+        <field name="l10n_mx_cfdi_tax_key">002</field>
+    </record>
+  </data>
+</odoo>
